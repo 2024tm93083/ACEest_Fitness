@@ -8,7 +8,7 @@ def create_app():
 
     @app.get("/")
     def health():
-        return jsonify({"status": "ok", "service": "ACEest Fitness API"}), 200
+        return jsonify({"status": "ok", "service": "ACEest Fitness API is working"}), 200
 
     @app.post("/add_workout")
     def add_workout():
